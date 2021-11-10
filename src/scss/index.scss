@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import "img";
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.table_layout {
+  font-size: 12px;
+  line-height: 1.0625rem;
+  width: 26.875rem;
+  padding: 0;
+  background-color: #faf7f0;
+}
+
+.nav_layout {
+  background-color: #faf7f0;
+  color: #ed5a24;
+  padding-bottom: 6px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  @import url(./src/images/pic-1.png);
+}
+
+#top_layout {
+  .info_layout {
+    background: #faf7f0;
+    padding: 0.625rem;
+    vertical-align: top;
+
+    .name-title_layout {
+      font-size: 14px;
+      font-style: italic;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+}
+
+#logo_layout {
+  vertical-align: top;
+  width: 8.75rem;
+  align-items: right;
+  line-height: 5px;
+  font-size: 5px;
+  padding-right: 10px;
+  background-color: #faf7f0;
+  @import url(./src/images/logo.gif);
+}
+
+#buttom_layout {
+  .s-info_layout {
+    vertical-align: top;
+    width: 30rem;
+    font-size: 8px;
+    font-family: Verdana;
+    color: #696969;
+    line-height: 10px;
+    padding: 10px;
+    background-color: #faf7f0;
+  }
+
+  .s-info_style {
+    font-size: 12px;
+  }
+}
+
+#footer{
+  @import url(./src/images/pic-2.png);
+}
