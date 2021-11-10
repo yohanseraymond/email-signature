@@ -1,41 +1,65 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-@import "img";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300;1,500;1,700&display=swap");
 
 * {
-  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
-.table_layout {
+a {
+  text-decoration: none;
+}
+
+table {
   font-size: 12px;
   line-height: 1.0625rem;
   width: 26.875rem;
   padding: 0;
+  border: 0;
   background-color: #faf7f0;
 }
 
 .nav_layout {
-  background-color: #faf7f0;
-  color: #ed5a24;
-  padding-bottom: 6px;
+  padding-bottom: 1.625rem;
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
-  @import url(./src/images/pic-1.png);
+  background: url(/src/images/pic-1.png);
 }
 
 #top_layout {
-  .info_layout {
-    background: #faf7f0;
-    padding: 0.625rem;
-    vertical-align: top;
 
-    .name-title_layout {
-      font-size: 14px;
+   .info_layout {
+    padding: 0.625rem;
+    color: #000;
+
+    .name_layout {
+      font-size: 18px;
       font-style: italic;
-      font-weight: bold;
-      color: #000;
+      font-weight: 500;
+    
+    }
+    .name_layout p {
+      margin: 0px; 
+      margin-bottom: 10px
+    }
+
+
+    .title_layout {
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .email_layout {
+      font-size: 12px;
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    .phone_layout {
+      font-size: 12px;
+      font-weight: 500;
+      font-style: italic;
     }
   }
 }
@@ -47,8 +71,8 @@
   line-height: 5px;
   font-size: 5px;
   padding-right: 10px;
-  background-color: #faf7f0;
-  @import url(./src/images/logo.gif);
+
+  background: url(/src/images/logo.gif);
 }
 
 #buttom_layout {
@@ -57,17 +81,19 @@
     width: 30rem;
     font-size: 8px;
     font-family: Verdana;
-    color: #696969;
     line-height: 10px;
     padding: 10px;
-    background-color: #faf7f0;
   }
 
   .s-info_style {
     font-size: 12px;
   }
+
+  .disclimer_style {
+    color: #faf7f0;
+  }
 }
 
-#footer{
-  @import url(./src/images/pic-2.png);
+#footer {
+  background: url(/src/images/pic-2.png);
 }

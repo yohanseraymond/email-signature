@@ -1,4 +1,4 @@
 node_modules
-public          
+#public          
 dist 
 #comment public when you want to publish 
